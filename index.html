@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <!--Linked CSS stylesheet-->
     <link rel="stylesheet" href= ./assets/css/style.css>
     <title>website</title>
 </head>
@@ -10,7 +11,7 @@
 <body>
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <!--These are the links at the top of the page-->
+        <!--These are the links at the top of the page that reference the IDs-->
         <nav>
             <ul>
                 <li>
@@ -25,10 +26,10 @@
             </ul>
         </nav>
     </header>
-    <!--This is the first image and it is very large-->
+    <!--This is the first and largest image. added figure tags-->
     <figure class="hero"></figure>
     <main class="content">
-        <!--These are the descriptions of the links-->
+        <!--consolidated to 3 classes instead of 9. added ID so links could work-->
         <article class="search">
             <img id="search-engine-optimization" src="./assets/images/search-engine-optimization.jpg" alt ="search-engine-optimization"
                 class="float-left" />
@@ -64,7 +65,7 @@
             </p>
         </article>
     </main>
-    <!--Side bar below descriptive articles-->
+    <!--Side bar consolidated benefits classes from 3 to 9-->
     <aside class="benefits">
         <aside class="benefit">
             <h3>Lead Generation</h3>
@@ -91,7 +92,7 @@
             </p>
         </aside>
     </aside>
-    <!--Foot at bottom should be centered-->
+    <!--Footer at bottom should be centered-->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
